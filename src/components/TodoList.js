@@ -43,7 +43,7 @@ const completeTodo = id => {
 
   return (
     <div>
-      <h1>What's the plan for today?</h1>
+      <h1>To-do List</h1>
       <TodoForm onSubmit={addTodo} />
       <Todo 
         todos={todos}
